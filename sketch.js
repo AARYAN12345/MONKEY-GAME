@@ -64,6 +64,9 @@ spawnBanana()
       bananasGroup.destroyEach()
      obstaclesGroup.destroyEach()
      ground.velocityX=0
+     stroke("black")
+      fill ("black")
+     text("GAME OVER",300,200)
    }
    monkey.velocityY = monkey.velocityY + 0.8
     monkey.collide(ground);
